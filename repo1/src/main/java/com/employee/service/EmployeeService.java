@@ -14,7 +14,7 @@ import java.util.Iterator;
 public class EmployeeService {
 
     @Autowired
-    @Qualifier("realData")
+    @Qualifier("localData")
     private EmployeeDAO employeeDAO;
 
     public Collection<Employee> getAllEmployees(){
